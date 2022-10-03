@@ -1,4 +1,14 @@
-.App {
+/* .App {
   font-family: sans-serif;
   text-align: center;
+} */
+
+/* Navbar css Start */
+.navbar {
+  display: flex;
 }
+.nav-img{
+  width: 12vw;
+}
+
+/* Navbar css ends */
