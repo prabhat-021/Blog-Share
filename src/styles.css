@@ -78,3 +78,47 @@ align-items: flex-end; */
   }
 }
 /* Navbar css ends */
+
+/* Home section css start */
+.home{
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+.home-img{
+  width: 100%;
+}
+.text-over-img{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: inherit;
+  letter-spacing: 0.45em;
+  font-size: 1.7rem;
+  /* -webkit-tap-highlight-color: rgba(0,0,0,0); */
+}
+.bold{
+  font-weight: 100;
+}
+.bold-ls{
+  font-weight: 1;
+}
+/* Home section css ends  */
+
+/* Card section css start  */
+.card{
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+.blog-img{
+  width: 100%;
+}
+.blog-text{
+  display: grid;
+  grid-template-rows: 1fr 2.5fr 1fr;
+}
+/* .blog-botm{
+  text;
+} */
+/* Card section css ends  */
